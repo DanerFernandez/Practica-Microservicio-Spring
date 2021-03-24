@@ -6,7 +6,7 @@ spring:
             server:
                 git: 
                     uri: https://github.com/DanerFernandez/Store_Demo.git
-                    searchPath: config-data
+                    searchPaths: config-data
                     username: ${GIT_USER}
                     password: ${GIT_PASSWORD}
     security:
