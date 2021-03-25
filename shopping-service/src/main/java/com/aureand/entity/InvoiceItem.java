@@ -1,5 +1,6 @@
 package com.aureand.entity;
 
+import com.aureand.model.Product;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -23,6 +24,9 @@ public class InvoiceItem implements Serializable {
 
     @Transient
     private Double subTotal;
+    
+    @Transient
+    private Product product;
 
     public Double getSubTotal() {
         if (this.price > 0 && this.quantity > 0) {
