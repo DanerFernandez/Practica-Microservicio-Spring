@@ -1,4 +1,4 @@
-package com.aureand;
+package com.aureand.controller;
 
 import com.aureand.controller.ErrorMessage;
 import com.aureand.entity.Invoice;
